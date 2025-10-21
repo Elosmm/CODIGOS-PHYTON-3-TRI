@@ -1,0 +1,662 @@
+print("Primeira competição de programação dá start")
+ano = "II"
+print(ano, "Competição de programação da estática")
+print(f"{ano} Competição de programação da start")
+print("I competição de programação dá Start")
+ano = "II"
+print(ano, "competição de programação da Start")
+print(f"{ano} competição de programação da Start")
+quantidade_bones = 15 
+livro_ficcao = 8
+livro_n_ficcao = 8
+livro_infantil = 6
+pontos_rodrigo = livro_ficcao + livro_n_ficcao + livro_infantil
+print(pontos_rodrigo)
+print(f"Os pontos totais do Rodrigo são {pontos_rodrigo}")
+## Aula 1
+## Aula 2
+livro_ficcao = 8 
+livro_n_ficcao = 10 
+livro_infantil = 6
+pontos_rodrigo = livro_ficcao + livro_n_ficcao + livro_infantil
+print(f"Os pontos totais do Rodrigo são {pontos_rodrigo}")
+esmaltes_azuis = 7 
+esmaltes_vermelhos = 18 
+esmaltes_brancos = 12 
+total_de_figurinhas = int(input("Digite o total de figurinhas: "))
+numero_de_amigos = int(input("Digite o número de amigos: "))
+figurinhas_amigos = total_de_figurinhas // (numero_de_amigos + 2)
+figurinhas_joao = 2 * figurinhas_amigos
+print("João recebeu", figurinhas_joao, "figurinhas")
+total_de_figurinhas = int(input("Digite o total de figurinhas: ")) 
+numero_de_amigos = int(input("Digite o número de amigos: "))
+figurinhas_amigo = total_de_figurinhas // (numero_de_amigos + 2) 
+total_de_figurinhas = int(input("Digite o total de figurinhas: ")) 
+numero_de_amigos = int(input("Digite o número de amigos: ")) 
+figurinhas_joao = 2 * figurinhas_amigo 
+
+print(f"João recebeu {figurinhas_joao} figurinhas")
+
+total_jogos = int(input("Digite o total de jogos: "))  
+
+numero_amigos = int(input("Digite o número de amigos: "))  
+
+jogos_por_amigo = total_jogos // numero_amigos  
+
+resto = total_jogos % numero_amigos  
+
+print(f"Cada amigo recebe {jogos_por_amigo} jogos.")  
+
+print(f"Restam {resto} jogos.") 
+
+idade_atual = int(input("Digite sua idade atual: ")) 
+
+anos_adicionar = int(input("Quantos anos você quer adicionar? ")) 
+
+idade_futura = idade_atual + anos_adicionar 
+
+print(f"Daqui a {anos_adicionar} anos, você terá {idade_futura} anos.") 
+
+base = input("Digite a base do triângulo: ")  
+
+altura = input("Digite a altura do triângulo: ")  
+
+area = base * altura / 2  
+
+print(f"A área do triângulo é {area}.") 
+
+numero_de_alunos = int(input("Digite a quantidade de alunos: "))
+numero_de_monitores = int(input("Digite a quantidade de monitores: "))
+resposta_positiva = "sim, pode ir"
+resposta_negativa = "não pode ir"
+if numero_de_alunos + numero_de_monitores <= 50:
+    print(resposta_positiva)
+else:
+    print(resposta_negativa)
+numero_de_alunos = int(input("Digite a quantidade de alunos: "))
+numero_de_monitores = int(input("Digite a quantidade de monitores: "))
+if numero_de_alunos + numero_de_monitores <= 50:
+resposta_positiva = "pode ir"
+resposta_negativa = "não pode ir"
+if numero_de_alunos + numero_de_monitores <= 50: 
+print(resposta_positiva) 
+else: 
+print(resposta_negativa)
+
+peso_item1 = int(input("Digite o peso do item 1: ")) 
+peso_item2 = int(input("Digite o peso do item 2: ")) 
+
+ 
+if peso_item1 + peso_item2 <= 20: 
+    print("Os itens cabem no carrinho.") 
+else: 
+    print("Os itens excedem o peso permitido.") 
+P = int(input("Digite a posição da portinha P (0 ou 1): "))
+R = int(input("Digite a posição da portinha R (0 ou 1): "))
+if P == 0:
+    print("C")
+elif P == 1 and R == 1:
+    print("A")
+elif P == 1 and R == 0:
+    print("B")
+P = int(input("Digite a posição da porta P (0 ou 1): "))
+R = int(input("Digite a posição da porta R (0 ou 1): "))
+if P == 0:
+    print("C")
+elif R == 1:
+    print("A")
+else:
+    print("B")
+if P == 0:
+    print("C")
+elif R == 1:
+    print("A")
+else:
+    print("B")
+elif R == 1:
+    print("A")
+else:
+    print("B")
+else:
+    print("B")
+idade = 16  
+if idade >= 18:  
+    print("Você pode votar.")  
+else:  
+    print("Você ainda não pode votar.") 
+temperatura = int(input("Digite a temperatura em graus Celsius: ")) 
+if temperatura < 15: 
+    print("____") 
+____ temperatura <= 25: 
+    print("Agradável") 
+____: 
+    ____ ("Quente") 
+P = int(input("Posição da porta P (0 ou 1): ")) 
+R = int(input("Posição da porta R (0 ou 1): ")) 
+
+if P == 0: 
+    print("C") 
+if P == 1: 
+    if R == 1: 
+        print("A") 
+    else: 
+        print("B") 
+else: 
+    print("C")   
+def calcula_idade_maior(idade_monica, idade_filho1, idade_filho2):
+    idade_filho3 = idade_monica - idade_filho1 - idade_filho2
+    idade_maxima = max(idade_filho1, idade_filho2, idade_filho3)
+    return idade_maxima
+# Testando a função
+print(calcula_idade_maior(68, 12, 30))
+def calcula_idade_maior(idade_monica, idade_filho1, idade_filho2):
+    idade_filho3 = idade_monica - idade_filho1 - idade_filho2
+    idade_maxima = max(idade_filho1, idade_filho2, idade_filho3)
+    return idade_maxima
+# Testando a função
+print(calcula_idade_maior(68, 12, 30))
+def calcula_idade_maior(idade_monica, idade_filho1, idade_filho2):
+idade_filho3 = idade_monica - idade_filho1 – idade_filho2
+idade_maxima = max(idade_filho1, idade_filho2, idade_filho3)
+def calcula_idade_maior(idade_monica, idade_filho1, idade_filho2): 
+idade_filho3 = idade_monica - idade_filho1 - idade_filho2 
+idade_maxima = max(idade_filho1, idade_filho2, idade_filho3) 
+return idade_filho3, idade_maxima
+resultado = calcula_idade_maior(68, 12, 30) 
+print(resultado)
+(26, 30)
+def calcula_idade_maior(idade_monica, idade_filho1, idade_filho2): 
+    idade_filho3 = idade_monica - idade_filho1 - idade_filho2 
+    idade_mais_velho = max(idade_filho1, idade_filho2, idade_filho3) 
+    return idade_mais_velho 
+def calcula_pontuacao(jogador1, jogador2, jogador3): 
+    # Complete o código aqui 
+def avaliar_musica(nota): 
+    if nota > 7 
+        print(f"A música é popular com nota {nota}!") 
+
+def calcula_lider(tempo_total, tempo1, tempo2):  
+
+tempo3 = tempo_total - tempo1 - tempo2  
+
+mais_experiente = max(tempo1, tempo2, tempo3)  
+
+return tempo3, mais_experiente 
+
+nome1 = input("Nome do primeiro candidato: ")  
+
+nome2 = input("Nome do segundo candidato: ")  
+
+nome3 = input("Nome do terceiro candidato: ") 
+
+tempo1 = int(input("Tempo de experiência do primeiro candidato: "))  
+
+tempo2 = int(input("Tempo de experiência do segundo candidato: "))  
+
+tempo_total = int(input("Tempo total de experiência dos três: ")) 
+
+tempo3, mais_experiente = calcula_lider(tempo_total, tempo1, tempo2)  
+
+print("Tempo de experiência do terceiro candidato:", tempo3)  
+
+print("O mais experiente tem:", mais_experiente, "anos de experiência.") 
+  
+print("I competição de programação dá Start")
+ano = "II"
+print(ano, "competição de programação da Start")
+print(f"{ano} competição de programação da Start")
+quantidade_bones = 15 
+livro_ficcao = 8
+livro_n_ficcao = 8
+livro_infantil = 6
+pontos_rodrigo = livro_ficcao + livro_n_ficcao + livro infantil
+print(pontos_rodrigo)
+print(f"Os pontos totais do Rodrigo são {pontos_rodrigo}")
+## Aula 1
+## Aula 2
+livro_ficcao = 8 
+livro_n_ficcao = 10 
+livro_infantil = 6
+pontos_rodrigo = livro_ficcao + livro_n_ficcao + livro infantil
+print(f"Os pontos totais do Rodrigo são {pontos_rodrigo}")
+esmaltes_azuis = 7 
+esmaltes_vermelhos = 18 
+esmaltes_brancos = 12 
+total_de_figurinhas = int(input("Digite o total de figurinhas: "))
+numero_de_amigos = int(input("Digite o número de amigos: "))
+figurinhas_amigos = total_de_figurinhas // (numero_de_amigos + 2)
+figurinhas_joao = 2 * figurinhas amigos
+print("João recebeu", figurinhas_joao, "figurinhas")
+total_de_figurinhas = int(input("Digite o total de figurinhas: ")) 
+numero_de_amigos = int(input("Digite o número de amigos: "))
+figurinhas_amigo = total_de_figurinhas // (numero_de_amigos + 2) 
+total_de_figurinhas = int(input("Digite o total de figurinhas: ")) 
+numero_de_amigos = int(input("Digite o número de amigos: ")) 
+figurinhas_joao = 2 * figurinhas_amigo 
+
+print(f"João recebeu {figurinhas_joao} figurinhas")
+
+total_jogos = int(input("Digite o total de jogos: "))  
+
+numero_amigos = int(input("Digite o número de amigos: "))  
+
+jogos_por_amigo = total_jogos // numero_amigos  
+
+resto = total_jogos % numero_amigos  
+
+print(f"Cada amigo recebe {jogos_por_amigo} jogos.")  
+
+print(f"Restam {resto} jogos.") 
+
+idade_atual = int(input("Digite sua idade atual: ")) 
+
+anos_adicionar = int(input("Quantos anos você quer adicionar? ")) 
+
+idade_futura = idade_atual + anos_adicionar 
+
+print(f"Daqui a {anos_adicionar} anos, você terá {idade_futura} anos.") 
+
+base = input("Digite a base do triângulo: ")  
+
+altura = input("Digite a altura do triângulo: ")  
+
+area = base * altura / 2  
+
+print(f"A área do triângulo é {area}.") 
+numero_de_alunos = int(input("Digite a quantidade de alunos: "))
+numero_de_monitores = int(input("Digite a quantidade de monitores: "))
+resposta_positiva = "sim, pode ir"
+resposta_negativa = "não pode ir"
+if numero_de_alunos + numero_de_monitores <= 50:
+    print(resposta_positiva)
+else:
+    print(resposta_negativa)
+numero_de_alunos = int(input("Digite a quantidade de alunos: "))
+numero_de_monitores = int(input("Digite a quantidade de monitores: "))
+if numero_de_alunos + numero_de_monitores <= 50:
+resposta_positiva = "pode ir"
+resposta_negativa = "não pode ir"
+if numero_de_alunos + numero_de_monitores <= 50: 
+print(resposta_positiva) 
+else: 
+print(resposta_negativa)
+
+peso_item1 = int(input("Digite o peso do item 1: ")) 
+peso_item2 = int(input("Digite o peso do item 2: ")) 
+
+ 
+if peso_item1 + peso_item2 <= 20: 
+    print("Os itens cabem no carrinho.") 
+else: 
+    print("Os itens excedem o peso permitido.") 
+P = int(input("Digite a posição da portinha P (0 ou 1): "))
+R = int(input("Digite a posição da portinha R (0 ou 1): "))
+if P == 0:
+    print("C")
+elif P == 1 and R == 1:
+    print("A")
+elif P == 1 and R == 0:
+    print("B")
+P = int(input("Digite a posição da porta P (0 ou 1): "))
+R = int(input("Digite a posição da porta R (0 ou 1): "))
+if P == 0:
+    print("C")
+elif R == 1:
+    print("A")
+else:
+    print("B")
+if P == 0:
+    print("C")
+elif R == 1:
+    print("A")
+else:
+    print("B")
+elif R == 1:
+    print("A")
+else:
+    print("B")
+
+else:
+    print("B")
+idade = 16  
+if idade >= 18:  
+    print("Você pode votar.")  
+else:  
+    print("Você ainda não pode votar.") 
+temperatura = int(input("Digite a temperatura em graus Celsius: ")) 
+if temperatura < 15: 
+    print("____") 
+____ temperatura <= 25: 
+    print("Agradável") 
+____: 
+    ____ ("Quente") 
+P = int(input("Posição da porta P (0 ou 1): ")) 
+R = int(input("Posição da porta R (0 ou 1): ")) 
+
+if P == 0: 
+    print("C") 
+if P == 1: 
+    if R == 1: 
+        print("A") 
+    else: 
+        print("B") 
+else: 
+    print("C")   
+def calcula_idade_maior(idade_monica, idade_filho1, idade_filho2):
+    idade_filho3 = idade_monica - idade_filho1 - idade_filho2
+    idade_maxima = max(idade_filho1, idade_filho2, idade_filho3)
+    return idade máxima
+# Testando a função
+print(calcula_idade_maior(68, 12, 30))
+idade_filho3 = idade_monica - idade_filho1 – idade_filho2
+idade_maxima = max(idade_filho1, idade_filho2, idade_filho3)
+def calcula_idade_maior(idade_monica, idade_filho1, idade_filho2): 
+idade_filho3 = idade_monica - idade_filho1 - idade_filho2 
+idade_maxima = max(idade_filho1, idade_filho2, idade_filho3) 
+return idade_filho3, idade máxima
+resultado = calcula_idade_maior(68, 12, 30) 
+print(resultado)
+(26, 30)
+def calcula_idade_maior(idade_monica, idade_filho1, idade_filho2): 
+    idade_filho3 = idade_monica - idade_filho1 - idade_filho2 
+    idade_mais_velho = max(idade_filho1, idade_filho2, idade_filho3) 
+    return idade_mais_velho 
+def calcula_pontuacao(jogador1, jogador2, jogador3): 
+    # Complete o código aqui 
+def avaliar_musica(nota): 
+    if nota > 7 
+        print(f"A música é popular com nota {nota}!") 
+
+def calcula_lider(tempo_total, tempo1, tempo2):  
+
+tempo3 = tempo_total - tempo1 - tempo2  
+
+mais_experiente = max(tempo1, tempo2, tempo3)  
+
+return tempo3, mais_experiente 
+
+nome1 = input("Nome do primeiro candidato: ")  
+
+nome2 = input("Nome do segundo candidato: ")  
+
+nome3 = input("Nome do terceiro candidato: ") 
+
+tempo1 = int(input("Tempo de experiência do primeiro candidato: "))  
+
+tempo2 = int(input("Tempo de experiência do segundo candidato: "))  
+
+tempo_total = int(input("Tempo total de experiência dos três: ")) 
+
+tempo3, mais_experiente = calcula_lider(tempo_total, tempo1, tempo2)  
+
+print("Tempo de experiência do terceiro candidato:", tempo3)  
+
+print("O mais experiente tem:", mais_experiente, "anos de experiência.") 
+def calcula_tabuada(número):
+    for i in range(1, 11):
+        print(f"{número} x {i} = {número * i}")
+calcula_tabuada(2)
+Entrada: 2
+Saída: 
+2 x 1 = 2
+2 x 2 = 4
+...
+2 x 10 = 20
+def calcula_tabuada(numero):
+    # A lógica da tabuada será implementada aqui
+for i in range(1, 11):  
+def calcula_tabuada(numero):
+    for i in range(1, 11):
+        print(f'{numero} x {i} = {numero * i}')
+for i in range(1, 11) 
+    print(i) 
+idade_monica = 40 
+idade_filho1 = 12 idade_filho2 = 15 
+idade_filho3 = idade_monica - (idade_filho1 + idade_filho2) 
+idades = [idade_filho1, idade_filho2, idade_filho3] 
+mais_velho = max(idades) 
+print(f"O filho mais velho tem {mais_velho} anos.")
+palavra = input("Digite uma palavra: ") 
+if palavra == palavra[::-1]: 
+    print("É um palíndromo!") 
+else: 
+    print("Não é um palíndromo.") 
+def encontra_vencedor(pontuacao1, pontuacao2, pontuacao3): 
+    maior_pontuacao = ___(pontuacao1, pontuacao2, pontuacao3) 
+    return maior_pontuacao 
+def verifica_login(usuario, senha): 
+    if usuario == "admin" ___ senha == 1234"": 
+        return "Login bem-sucedido!" 
+    else: 
+        return "Credenciais inválidas." 
+goleiro_presente = input("Há um goleiro na equipe? (sim/nao): ") 
+__(1)__ __(2)__ == __(3)__: 
+    print("O jogo pode começar!") 
+else: 
+    print("É necessário um goleiro para começar o jogo.") 
+print("Hello, World!")
+numero = 10
+texto = "Olá, Python!"
+for i in range(5):
+    print(i)
+idade = 18
+if idade < 18:
+    print("Menor de idade")
+elif idade == 18:
+    print("Tem 18 anos")
+else:
+    print("Maior de idade")
+def soma(a, b):
+    return a + b
+valores = [10, 20, 30]
+maior_valor = max(valores)
+print(maior_valor)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
